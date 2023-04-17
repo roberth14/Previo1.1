@@ -11,7 +11,7 @@ public class ConexionPostgreSQL {
 	private Connection con = null;
 	private PreparedStatement preparedStatement;
 	private static ConexionPostgreSQL db;
-	private static final String url = " database-1.ct3gev1bipds.us-east-2.rds.amazonaws.com";
+	private static final String url = " database-1.ct3gev1bipds.us-east-2.rds.amazonaws.com/";
 	private static final String dbName = "testpweb";
 	private static final String driver = "org.postgresql.Driver";
 	private static final String userName = "student";
